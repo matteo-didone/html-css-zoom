@@ -95,7 +95,7 @@ footer .center-footer
 {
     background-color: rgba(74,74,74,255);
     position: absolute;
-    top: 0px;
+    top: 10px;
     border-radius: 5px;
     text-align: center;
     display: flex;
@@ -110,6 +110,11 @@ footer .center-footer
     width: 120px;
     display: inline-block;
     vertical-align: middle;
+}
+
+#speaker-view-text
+{
+    color: white;
 }
 
 .full-screen
@@ -171,6 +176,8 @@ footer .center-footer
     padding: 10px;
     margin-bottom: 5px;
 }
+
+
 
 
 
