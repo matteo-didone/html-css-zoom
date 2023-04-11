@@ -15,12 +15,25 @@
     font-style: normal;
 }
 
+main
+{
+    background-color: #000000;
+}
+
 .container
 {
-    height: 100vh;
+    max-width: 85%;
+	margin: 0 auto;
     position: relative;
-    background-color: #000000;
     color: white;
+    background-color: #000000;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer 
@@ -105,16 +118,6 @@ footer .center-footer
     width: 20px;
 }
 
-.user-window
-{
-    background-image: url("https://picsum.photos/seed/picsum/200/300");
-}
-
-.user-name
-{
-    background-color: rgba(100,111,121,255);
-}
-
 .button
 {
     display: flex;
@@ -132,6 +135,41 @@ footer .center-footer
 {
     margin-top: 5px;
 }
+
+.caller-grid
+{
+    padding-top: 40px;
+    gap: 10px;
+    flex-wrap: wrap;
+    background-color: #000000;
+}
+
+.caller-window
+{
+    min-width: calc(100% / 7 - 10px);
+    min-height: calc(100% / 5 - 5px);
+    position: relative;
+    display: inline-block;
+}
+
+.caller-window img
+{
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caller-name
+{
+    background-color: rgba(100,111,121,0.5);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
 
 
 
